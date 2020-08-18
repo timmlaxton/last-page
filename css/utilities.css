@@ -1,0 +1,43 @@
+/* Tesxt colors */
+.text-primary {
+  color: #DDA0DD;
+}
+
+.text-secondary {
+  color: #0284d0
+}
+
+/* Button */
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  color: #fff;
+  background-color:  #DDA0DD;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn-primary {
+  background: #DDA0DD;
+  color: #fff; 
+}
+
+.btn-secondary {
+  background:  #0284d0;
+  color: #fff; 
+}
+
+.btn-dark {
+  background: #333;
+  color: #fff; 
+}
+
+.btn-light {
+  background:  #f4f4f4;
+  color: rgb(7, 7, 7); 
+}
