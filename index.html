@@ -5,12 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
   <link rel="stylesheet" href="css/utilities.css" />
+  <link rel="stylesheet" href="css/lightbox.min.css" />
   <link rel="stylesheet" href="css/style.css" />
   <title>Last Page</title>
 </head>
 <body id="home">
   <header class="hero">
-    <div id="navbar" class="navbar">
+    <div id="navbar" class="navbar top">
       <h1 class="logo">
         <span class="text-primary"><i class="fas fa-book-open"></i> Last </span>Page
       </h1>
@@ -18,7 +19,7 @@
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#staff picks">Staff Picks</a></li>
+          <li><a href="#staff">Staff</a></li>
           <li><a href="#blog">Blog</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -77,7 +78,7 @@
               Magnam corrupti sint, sed totam eum error eos nobis nesciunt 
               corporis ipsam maiores, possimus alias tempore quos animi 
               amet ipsa? Minus, soluta?</p>
-              <a href="#"class="btn btn-outline">
+              <a href="#about.html"class="btn btn-outline">
                 <i class="fas fa-chevron"></i>
                 Read More
               </a>
@@ -85,6 +86,7 @@
         </div>
       </div>
     </section>
+
     <!-- Cases -->
     <section id="cases" class="cases flex-grid section-padding">
       <header class="section-header">
@@ -96,20 +98,40 @@
       </header>
       <div class="row">
         <div class="column">
-          <img src="images/showcase/littlegirl-2.jpg" alt="">
-          <img src="images/showcase/jumperguy.jpg" alt="">
+          <a href="images/showcase/littlegirl-2.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit.">
+            <img src="images/showcase/littlegirl-2.jpg" alt="">
+          </a>
+          <a href="images/showcase/jumperguy.jpg"  data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit.">
+            <img src="images/showcase/jumperguy.jpg" alt="">
+          </a>
+     
         </div>
         <div class="column">
-          <img src="images/showcase/kid-bench.jpg" alt="">
-          <img src="images/showcase/guy-reading.jpg" alt="">
+          <a href="images/showcase/kid-bench.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit.">
+            <img src="images/showcase/kid-bench.jpg" alt="">
+          </a>
+          <a href="images/showcase/guy-reading.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit.">
+            <img src="images/showcase/guy-reading.jpg" alt="">
+          </a>
+          
         </div>
         <div class="column">
-          <img src="images/showcase/littlegirl.jpg" alt="">
-          <img src="images/showcase/sitting.jpg" alt="">
+          <a href="images/showcase/littlegirl.jpg " data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit.">
+            <img src="images/showcase/littlegirl.jpg" alt="">
+          </a>
+          <a href="images/showcase/sitting.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit.">
+            <img src="images/showcase/sitting.jpg" alt="">
+          </a>
+          
         </div>
         <div class="column">
-          <img src="images/showcase/spiderman.jpg" alt="">
-          <img src="images/showcase/windowwomen.jpg" alt="">
+          <a href="images/showcase/spiderman.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit.">
+            <img src="images/showcase/spiderman.jpg" alt="">
+          </a>
+          <a href="images/showcase/windowwomen.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit.">
+            <img src="images/showcase/windowwomen.jpg" alt="">
+          </a> 
+          
         </div>
       </div>
     </section>
@@ -130,7 +152,7 @@
               Magnam corrupti sint, sed totam eum error eos nobis nesciunt 
               corporis ipsam maiores, possimus alias tempore quos animi 
               amet ipsa? Minus, soluta?</p>
-              <a href="#"class="btn btn-outline">
+              <a href="blog.html"class="btn btn-outline">
                 <i class="fas fa-chevron"></i>
                 Read More
               </a>
@@ -141,33 +163,122 @@
 
      <!-- Team -->
      
-    <section id="team" class="team  section-padding">
+    <section id="team" class="team f section-padding">
       <header class="section-header">
-        <h4>This is what we do</h4>
-        <h2>Business cases</h2>
+        <h4>Who we are</h4>
+        <h2>Meet the team</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
           Voluptate sunt atque eum eligendi doloribus molestiae, 
           quam esse facilis culpa fugit.</p>
       </header>
+      <div class="flex-items">
+        <div>
+          <img src="images/team/person-1.jpg" alt="">
+          <h4>John Doe</h4>
+          <p>Happiest Reading</p>
+        </div>
+        <div>
+          <img src="images/team/person-2.jpg" alt="">
+          <h4>John Doe</h4>
+          <p>Happiest Reading</p>
+        </div>
+        <div>
+          <img src="images/team/person-3.jpg" alt="">
+          <h4>John Doe</h4>
+          <p>Happiest Reading</p>
+        </div>
+        
+      </div>
+      <a href="staff.html"></a>
+    </section>
+
+    
+     <!-- Aims -->
+     <section class="aim flex-columns">
       <div class="row">
         <div class="column">
-          <img src="images/showcase/littlegirl-2.jpg" alt="">
-          <img src="images/showcase/jumperguy.jpg" alt="">
+          <div class="column-1">
+          <img src="images/home/contact.jpg" alt="">
+          </div>
         </div>
         <div class="column">
-          <img src="images/showcase/kid-bench.jpg" alt="">
-          <img src="images/showcase/guy-reading.jpg" alt="">
+          <div class="column-2 bg-primary">
+            <h2>Request Callback </h2>
+            <form action="" class="callback-form">
+              <div class="form-control">
+                <label for="name"></label>
+                <input type="text" name="name" id="name" placeholder="Enter name">
+              </div>
+              <div class="form-control">
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="Enter email">
+              </div>
+              <div class="form-control">
+                <label for="phone"></label>
+                <input type="text" name="name" id="phone" placeholder="Enter phone">
+              </div>
+              <input type="submit" value="Send" id="submit" class="btn">
+            </form>
+          </div>
         </div>
-        <div class="column">
-          <img src="images/showcase/littlegirl.jpg" alt="">
-          <img src="images/showcase/sitting.jpg" alt="">
-        </div>
-        <div class="column">
-          <img src="images/showcase/spiderman.jpg" alt="">
-          <img src="images/showcase/windowwomen.jpg" alt="">
+      </div>
+    </section>
+          </div>
         </div>
       </div>
     </section>
   </main>
-</body>
+
+  <footer class="footer bg-dark">
+    <div class="social">
+      <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+      <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+      <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+    </div>
+    <p>Copyright &copy; 2020 - LastPage</p>
+  </footer>
+
+  <script
+      src="https://code.jquery.com/jquery-3.5.0.min.js"
+      integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/lightbox.min.js"></script>
+    <script>
+      const navbar = document.getElementById('navbar');
+      let scrolled = false;
+
+      window.onscroll = function () {
+        if (window.pageYOffset > 100) {
+          navbar.classList.remove('top');
+          if (!scrolled) {
+            navbar.style.transform = 'translateY(-70px)';
+          }
+          setTimeout(function () {
+            navbar.style.transform = 'translateY(0)';
+            scrolled = true;
+          }, 200);
+        } else {
+          navbar.classList.add('top');
+          scrolled = false;
+        }
+      };
+
+      // Smooth Scrolling
+      $('#navbar a, .btn').on('click', function (e) {
+        if (this.hash !== '') {
+          e.preventDefault();
+
+          const hash = this.hash;
+
+          $('html, body').animate(
+            {
+              scrollTop: $(hash).offset().top - 100,
+            },
+            800
+          );
+        }
+      });
+    </script>
+  </body>
 </html>

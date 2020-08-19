@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "lastpage",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "lastpage"
+	}
+}
